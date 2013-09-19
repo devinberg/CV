@@ -63,6 +63,7 @@ local.properties
 *.vrb
 *.xdy
 *.tdo
+*.synctex.gz(busy)
 
 
 #################
