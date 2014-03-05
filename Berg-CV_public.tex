@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage[margin=3cm]{geometry}
+
+\title{\bfseries\Huge Devin R. Berg}
+\author{bergdev@uwstout.edu}
+\date{}
+
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+
+\begin{document}
+\maketitle
+\vspace{1em}
+\begin{minipage}[ht]{0.48\textwidth}
+Engineering \& Technology Department\\
+807 3rd Street East\\
+Fryklund 308\\
+Menomonie, WI 54751
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+\begin{flushright}
+tel: 715/232-1133\\
+email: bergdev@uwstout.edu\\
+web: www.uwstout.edu/faculty/bergdev\\
+twitter: @devinberg
+\end{flushright}
+\end{minipage}
+\vspace{20pt}
+
+
+\input{interests.tex}
+
+\input{education.tex}
+
+\input{positions.tex}
+
+
+
+\bibliographystyle{plain}
+\nobibliography{publication}
+
+\input{patents_awarded.tex}
+
+\input{patents_provisional.tex}
+
+\input{articles.tex}
+
+\input{book_chapters.tex}
+
+\input{talks.tex}
+
+\input{proceedings.tex}
+
+\input{posters.tex}
+
+\input{honors_awards.tex}
+
+\input{grants_awarded.tex}
+
+\input{service_field.tex}
+
+\input{affiliations.tex}
+
+\vspace{20pt}
+\vspace{20pt}
+\scriptsize\hfill Updated: 5 March 2014
+
+\end{document}
